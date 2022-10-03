@@ -11,7 +11,7 @@
 Feature_04321.prototype = {
     initialize: function() {
     },
-	sayHelloWorld: function() {
+	sayHello: function() {
 		return "Hello World to the world!";
 	},
     type: 'Feature_04321'
@@ -20,13 +20,13 @@ Feature_04321.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-28 15:24:11</sys_created_on>
         <sys_id>f894799c341a51107f443237ef1ce376</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Feature_04321</sys_name>
         <sys_package display_value="CI/CD Workshop Demo" source="x_snc_ci_cd_worksh">2711f5d8341a51107f443237ef1ce3ef</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="CI/CD Workshop Demo">2711f5d8341a51107f443237ef1ce3ef</sys_scope>
         <sys_update_name>sys_script_include_f894799c341a51107f443237ef1ce376</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-03 18:45:33</sys_updated_on>
+        <sys_updated_on>2022-10-03 18:49:43</sys_updated_on>
     </sys_script_include>
 </record_update>
