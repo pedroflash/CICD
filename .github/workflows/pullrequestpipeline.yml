@@ -18,7 +18,7 @@ jobs:
         env:
           snowUsername: ${{ secrets.NOW_USERNAME }}
           snowPassword: ${{ secrets.NOW_PASSWORD }}
-          snowSourceInstance: ${{ secrets.NOW_DEV_INSTANCE }}
+          snowSourceInstance: ${{ secrets.NOW_TEST_INSTANCE }}
           appSysID: ${{ secrets.APP_SYS_ID }}
 
       - name: Run Tests 
@@ -34,4 +34,4 @@ jobs:
         env:
           snowUsername: ${{ secrets.NOW_USERNAME }}
           snowPassword: ${{ secrets.NOW_PASSWORD }}
-          snowInstallInstance: ${{ secrets.NOW_DEV_INSTANCE }}
+          snowInstallInstance: ${{ secrets.NOW_TEST_INSTANCE }}
